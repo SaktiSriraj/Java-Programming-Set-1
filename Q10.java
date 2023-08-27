@@ -3,7 +3,7 @@
  */
 
 import java.util.Scanner;
-public class A1Q10 {
+public class Q10 {
 	static long A[];
     public static int computeReverse(int n){
         int c=16;
