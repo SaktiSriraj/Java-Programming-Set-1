@@ -2,7 +2,7 @@
  Write a program to find the parity bit of a number in O(k) time, where k is the number of set bits.
  */
 
-public class Q3 {
+public class Q03 {
 	public static void main(String[] args) {
         long x = 0b1011;
 		short result = 0;
