@@ -2,7 +2,7 @@
  Write a program to compute X^Y using bit wise operator.
  */
 
-public class A1Q14 {
+public class Q14 {
 	public static double power(double x,int y) {
 		double res=1;
 		if(y<0){
