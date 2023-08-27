@@ -2,8 +2,8 @@
  Write a program to check if a decimal number is a palindrome.
  */
 
-public class A1Q15 {
-	public static boolean isPali(int x) {
+public class Q15 {
+	public static boolean isPalindrome(int x) {
 		if(x<0) {
 			return false;
 		}
@@ -20,7 +20,7 @@ public class A1Q15 {
 		return true;
 	}
     public static void main(String[] args) {
-		if(isPali(157751)) {
+		if(isPalindrome(157751)) {
 			System.out.println("Palindrome");
 		}
 		else {
