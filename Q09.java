@@ -2,7 +2,7 @@
  Design a function to create a lookup table A such that for every 16 bit number y, A[y] holds the bit-reversal of y
  */
 
-public class A1Q9 {
+public class Q09 {
 	static long A[];
     public static int computeReverse(int n){
         int c=16;
