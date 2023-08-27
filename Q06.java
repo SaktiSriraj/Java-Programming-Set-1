@@ -4,7 +4,7 @@
  */
 
 import java.util.Scanner;
-public class Q6 {
+public class Q06 {
 	public static int computePartity(int x){
         int result = 0;
 		while (x != 0) {
