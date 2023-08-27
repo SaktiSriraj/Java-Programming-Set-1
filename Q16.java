@@ -29,7 +29,7 @@ class Rectangle {
 	}
 }
 
-public class A1Q16 {
+public class Q16 {
 	public static void main(String[] args) {
         Rectangle.display();
     }
