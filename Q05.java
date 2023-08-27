@@ -2,7 +2,7 @@
  Define a function to create a lookup table of size 216 whose value is the parity bits of the index.
  */
 
-public class Q5 {
+public class Q05 {
 	public static int computePartity(int x){
         int result = 0;
 		while (x != 0) {
