@@ -4,8 +4,8 @@
  */
 
 import java.util.Scanner;
-public class A1Q6 {
-	public static int computepartity(int x){
+public class Q6 {
+	public static int computePartity(int x){
         int result = 0;
 		while (x != 0) {
 		    result^= 1;
@@ -16,13 +16,13 @@ public class A1Q6 {
     public static void lookupTable(){
         int parity[] =new int[(int)Math.pow(2, 16)];
         for(int i=0;i<parity.length;i++){
-            parity[i]=computepartity(i);
+            parity[i]=computePartity(i);
         }
     }
     public static long parity(long x){
         int ws = 16;
 		int bm = 0xFFFF;
-		return(computepartity((int)(x>>(3*ws))&bm)^computepartity((int)(x>>(2*ws))&bm)^computepartity((int)(x>>(ws))&bm)^computepartity((int)x&bm));
+		return(computePartity((int)(x>>(3*ws))&bm)^computePartity((int)(x>>(2*ws))&bm)^computePartity((int)(x>>(ws))&bm)^computePartity((int)x&bm));
     }
     public static void main(String[] args) {
         lookupTable();
