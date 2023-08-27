@@ -2,7 +2,7 @@
  Write a program to compute X/Y using bit wise operator.
  */
 
-public class A1Q13 {
+public class Q13 {
 	public static void main(String[] args) {
         int x=27,y=3,res=0;;
 		int k=4;
