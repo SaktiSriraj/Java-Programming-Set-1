@@ -2,7 +2,7 @@
  Write a program to find the closest integer with the same weight.
  */
 
-public class A1Q11 {
+public class Q11 {
 	public static void main(String[] args) {
         int x=0b0111;
 		int n=((int)(Math.log(x)/Math.log(2)+1));
