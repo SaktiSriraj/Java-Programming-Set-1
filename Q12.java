@@ -2,7 +2,7 @@
  Write a program to compute XXY using bit wise operator.
  */
 
-public class A1Q12 {
+public class Q12 {
 	public static int add(int res,int y) {
 		while(y!=0) {
 			int carry=res&y;
